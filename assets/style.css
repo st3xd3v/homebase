@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:100;
+	-webkit-appearance: none;
+}
+
+
+
+.background {
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	display:none;
+	z-index: -10;
+}
+
+body {
+  padding: 0;
+  margin:0;
+  color: #444;
+  background-size: cover;
+background-position: center;
+}
+
+.window {
+  top:20%;
+  left:30%;
+  right:30%;
+  position: absolute;
+  background: #fff;
+  opacity: 0.8;
+  display: none;
+  border-radius: 20px;
+  color: #444;
+  box-shadow: 0 5px 5px -5px #333;
+
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: #141414;
+    opacity: 0.2;
+    z-index: -5;
+	
+}
+
+.particles-js {
+	z-index: 10;
+}
+
+hr {
+  width:70%;
+}
+
+.icon {
+  width:150px;
+  background: #000;
+  border-radius: 25px;
+  box-shadow: 0px 2px 3px #333;
+}
+
+.iconprojects {
+  width:70px;
+  background: #000;
+  border-radius: 25px;
+  box-shadow:    0px 2px 3px #222;
+ 
+}
+
+.button {
+  background: #007aff;
+  color: white;
+  padding:10px;
+  text-decoration:none;
+  display: block;
+}
+
+.social-icon .fa:before {
+  font-size: 30px;
+  color: #444;
+}
+
+.social-icon .fa {
+  padding:10px;
+  border-radius: 100%;
+  border: 1px solid #444;
+  margin:1%;
+}
+
+.bottom {
+				box-shadow: 0 5px 5px -5px #333;
+			}
+			
+.logotext {     text-transform: capitalize;
+                
+}
+
+/*.button:last-of-type {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}*/
+
+/* MOBILE QUERIES */
+@media only screen and (max-width: 500px) {
+    .window {
+        top:0;
+		left:0;
+		right:0;
+		position:absolute;
+		border-radius:0;
+    }
+	
+	.button:last-of-type {
+		border-radius:0;
+	}
+}
